@@ -1,0 +1,28 @@
+.box {
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    padding: 1rem 1rem .7rem;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.box .media {
+    display: flex;
+}
+
+.box .media-content {
+    margin-left: 20px;
+}
+
+.box p {
+    margin: .5rem 0;
+}
+
+.box a {
+    text-decoration: none;
+    color: #2d96bd;
+}
+
+.box a:hover, .box a:active{
+    color: #ef3982;
+}

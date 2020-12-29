@@ -1,0 +1,87 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+{{- /* 引入文章界面的css */ -}}
+{{- $fingerprint := .Scratch.Get "fingerprint" -}}
+{{- $source := ( resources.Get "css/links.css" ) -}}
+{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" $.Scratch "Data" | partial "scratch/style.html" -}}
+{{- range (.Scratch.Get "this").style -}}
+    {{- partial "plugin/style.html" . -}}
+{{- end -}}
+{{- .Scratch.Delete "this" -}}
+
+    {{- $params := .Scratch.Get "params" -}}
+
+    {{- $toc := $params.toc -}}
+    {{- if eq $toc true -}}
+        {{- $toc = .Site.Params.page.toc | default dict -}}
+    {{- else if eq $toc false -}}
+        {{- $toc = dict "enable" false -}}
+    {{- end -}}
+
+    {{- /* Auto TOC */ -}}
+    {{- if ne $toc.enable false -}}
+        <div class="toc" id="toc-auto">
+            <h2 class="toc-title">{{ T "contents" }}</h2>
+            <div class="toc-content{{ if eq $toc.auto false }} always-active{{ end }}" id="toc-content-auto"></div>
+        </div>
+    {{- end -}}
+
+    <article class="page single special">
+        {{- /* Title */ -}}
+        <h1 class="single-title animated flipInX">
+            <i class="fas fa-user-friends fa-fw"></i>&nbsp;{{ .Title }}
+        </h1>
+
+        {{- /* Static TOC */ -}}
+        {{- if ne $toc.enable false -}}
+            <div class="details toc" id="toc-static"  kept="{{ if $toc.keepStatic }}true{{ end }}">
+                <div class="details-summary toc-title">
+                    <span>{{ T "contents" }}</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static">
+                    <nav id="TableOfContents">
+                      <ul>
+                        {{- /* modify director */ -}}
+                        {{- range $weight, $website := sort .Params.links "weight" -}}
+                            {{- $groupName := dict "Content" $website.name "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                            <li><a href="#{{ $groupName }}">{{ $groupName }}</a></li>
+                        {{- end -}}
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        {{- end -}}
+
+        {{- /* Content */ -}}
+        <div class="content" id="content">
+            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+
+        {{- range $weight, $website := sort .Params.links "weight" -}}
+            <h3 id="{{ $website.name }}" tabindex="-1" style="outline: none;"><a href="#{{ $website.name }}"></a>{{ $website.name }}</h3>
+            <ul style="list-style: none;" id="firendLink">
+                {{- range $website.people -}}
+                    <li>
+                        <div class="box">
+                            <div class="media">
+                                <div class="media-left"><img src="{{ .avatar }}" width="55"></div>
+                                <div class="media-content">
+                                    <i class="fa fa-user-ninja fa-fw"></i>
+                                    {{ .name }}&nbsp;<i class="fa fa-link fa-fw"></i>
+                                    <a href="{{ .url }}" target="_blank">{{ .url }}</a>
+                                    <p>{{ .description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                {{- end -}}
+            </ul>
+        {{- end -}}
+        </div>
+        <div id="post-footer"></div>
+        
+        {{- /* Comment */ -}}
+        {{- partial "comment.html" . -}}
+    </article>
+{{- end -}}

@@ -1,0 +1,63 @@
+{{- if ne .Site.Params.footer.enable false -}}
+    <footer class="footer">
+        <div class="footer-container">
+            {{- /* Custom Content */ -}}
+            {{- with .Site.Params.footer.custom -}}
+                <div class="footer-line">
+                    {{- safeHTML . -}}
+                </div>
+            {{- end -}}
+            
+            {{- /* Hugo and LoveIt */ -}}
+            {{- if ne .Site.Params.footer.hugo false -}}
+                <div class="footer-line">
+                    <span id="timeDate">{{ T "worktime" }}&nbsp;|&nbsp;</span>
+                    <script>
+                        var now = new Date();
+                        function createtime() {
+                            var start_time= new Date("09/16/2020 00:00:00");
+                            now.setTime(now.getTime()+250);
+                            days = (now - start_time ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+                            var worktime = document.getElementById("timeDate").innerHTML.replace(/time/, Math.floor(days));
+                            document.getElementById("timeDate").innerHTML = worktime ;
+                        }
+                        createtime();
+                    </script>
+                    {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo %v">Hugo</a>` hugo.Version -}}
+                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt %v"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>` -}}
+                    {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
+                </div>
+            {{- end -}}
+
+            <div class="footer-line">
+                {{- /* Copyright year */ -}}
+                {{- if ne .Site.Params.footer.copyright false -}}
+                    <i class="far fa-copyright fa-fw"></i>
+                    {{- with .Site.Params.footer.since -}}
+                        <span itemprop="copyrightYear">
+                            {{- if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year -}}
+                        </span>
+                    {{- else -}}
+                        <span itemprop="copyrightYear">{{ now.Year }}</span>
+                    {{- end -}}
+                {{- end -}}
+
+                {{- /* Author */ -}}
+                {{- if ne .Site.Params.footer.author false -}}
+                    <span class="author" itemprop="copyrightHolder">&nbsp;<a href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}" target="_blank">{{ T "penname" }}</a></span>
+                {{- end -}}
+
+                {{- /* License */ -}}
+                {{- with .Site.Params.footer.license -}}
+                    &nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" target="_blank" href="{{ . | safeHTML }}">{{ T "license" }}</a></span>
+                {{- end -}}
+
+                {{- /* ICP */ -}}
+                {{- with .Site.Params.footer.icp -}}
+                    <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                    <span class="icp">{{ . | safeHTML }}</span>
+                {{- end -}}
+            </div>
+        </div>
+    </footer>
+{{- end -}}

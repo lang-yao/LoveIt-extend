@@ -1,0 +1,36 @@
+{{- $analytics := .Scratch.Get "analytics" | default dict -}}
+
+{{- if $analytics.enable -}}
+    {{- /* Google Analytics */ -}}
+    {{- with $analytics.google.id -}}
+        <script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', '{{ . }}'{{ if $analytics.google.anonymizeIP }}, { 'anonymize_ip': true }{{ end }});
+        </script>
+        {{- printf "https://www.googletagmanager.com/gtag/js?id=%v" . | dict "Async" true "Source" | partial "plugin/script.html" -}}
+    {{- end -}}
+    
+    {{- /* baidu Analytics */ -}}
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?9c04b6d35915817e67da8ad2fdcfbfdf";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    {{- /* 51la Analytics */ -}}
+    <script type="text/javascript" src="//js.users.51.la/21009067.js"></script>
+
+
+    {{- /* Fathom Analytics */ -}}
+    {{- with $analytics.fathom.id -}}
+        <script type="text/javascript">
+            window.fathom=window.fathom||function(){(fathom.q=fathom.q||[]).push(arguments);};
+            fathom('set', 'siteId', '{{ . }}');
+            fathom('trackPageview');
+        </script>
+        {{- dict "Source" ($analytics.fathom.server | default "cdn.usefathom.com" | printf "https://%v/tracker.js") "Async" true "Attr" "id=fathom-script" | partial "plugin/script.html" -}}
+    {{- end -}}
+{{- end -}}

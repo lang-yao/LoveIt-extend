@@ -1,0 +1,52 @@
+# This is a basic workflow to help you get started with Actions
+
+name: deploy_blog
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v2
+
+      #同步blog搜索
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install automic-algolia
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: zh-cn
+          ALGOLIA_INDEX_FILE: "./public/index.json"
+        run: | 
+          npm install atomic-algolia
+          npm run algolia
+
+      - name: en json
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: en
+          ALGOLIA_INDEX_FILE: "./public/en/index.json"
+        run: | 
+          npm run algolia
+
+      - name: deploy to server
+        uses: AEnterprise/rsync-deploy@v1.0
+        env:
+          DEPLOY_KEY: ${{ secrets.SSH_KEY }}
+          ARGS: "-avzr --delete"
+          SERVER_PORT: ${{ secrets.PORT }}
+          FOLDER: "./public/"
+          SERVER_IP: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USER }}
+          SERVER_DESTINATION: ${{ secrets.REMOTE_PATH }}
+      

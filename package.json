@@ -1,0 +1,9 @@
+{
+  "name": "algolia",
+  "version": "0.2.0",
+  "description": "atomic-algolia package",
+  "private": true,
+  "scripts": {
+    "algolia": "atomic-algolia"
+  }
+}
