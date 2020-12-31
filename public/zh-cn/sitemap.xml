@@ -2,138 +2,138 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://example.com/hello-world/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/hello-world/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/hello-world/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/hello-world/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/hello-world/"
+                    href="https://lang-yao.github.io/LoveIt-extend/hello-world/"
                     /></url><url>
-            <loc>https://example.com/milestone/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/milestone/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/milestone/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/milestone/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/milestone/"
+                    href="https://lang-yao.github.io/LoveIt-extend/milestone/"
                     /></url><url>
-            <loc>https://example.com/message-board/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/message-board/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/message-board/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/message-board/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/message-board/"
+                    href="https://lang-yao.github.io/LoveIt-extend/message-board/"
                     /></url><url>
-            <loc>https://example.com/categories/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/categories/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/categories/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/categories/"
+                    href="https://lang-yao.github.io/LoveIt-extend/categories/"
                     /></url><url>
-            <loc>https://example.com/tags/demo1/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/tags/demo1/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/tags/demo1/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/tags/demo1/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/tags/demo1/"
+                    href="https://lang-yao.github.io/LoveIt-extend/tags/demo1/"
                     /></url><url>
-            <loc>https://example.com/categories/demo1/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/categories/demo1/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/categories/demo1/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/categories/demo1/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/categories/demo1/"
+                    href="https://lang-yao.github.io/LoveIt-extend/categories/demo1/"
                     /></url><url>
-            <loc>https://example.com/tags/demo2/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/tags/demo2/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/tags/demo2/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/tags/demo2/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/tags/demo2/"
+                    href="https://lang-yao.github.io/LoveIt-extend/tags/demo2/"
                     /></url><url>
-            <loc>https://example.com/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/"
+                    href="https://lang-yao.github.io/LoveIt-extend/"
                     /></url><url>
-            <loc>https://example.com/posts/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/posts/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/posts/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/posts/"
+                    href="https://lang-yao.github.io/LoveIt-extend/posts/"
                     /></url><url>
-            <loc>https://example.com/tags/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/tags/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/tags/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/tags/"
+                    href="https://lang-yao.github.io/LoveIt-extend/tags/"
                     /></url><url>
-            <loc>https://example.com/about/</loc><lastmod>2020-12-30T21:12:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/about/</loc><lastmod>2020-12-30T21:12:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/about/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/about/"
+                    href="https://lang-yao.github.io/LoveIt-extend/about/"
                     /></url><url>
-            <loc>https://example.com/booklist/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/booklist/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/booklist/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/booklist/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/booklist/"
+                    href="https://lang-yao.github.io/LoveIt-extend/booklist/"
                     /></url><url>
-            <loc>https://example.com/memories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/memories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/memories/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/memories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/memories/"
+                    href="https://lang-yao.github.io/LoveIt-extend/memories/"
                     /></url><url>
-            <loc>https://example.com/links/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/links/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/links/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/links/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/links/"
+                    href="https://lang-yao.github.io/LoveIt-extend/links/"
                     /></url><url>
-            <loc>https://example.com/websites/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://lang-yao.github.io/LoveIt-extend/websites/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/en/websites/"
+                        href="https://lang-yao.github.io/LoveIt-extend/en/websites/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/websites/"
+                    href="https://lang-yao.github.io/LoveIt-extend/websites/"
                     /></url></urlset>
