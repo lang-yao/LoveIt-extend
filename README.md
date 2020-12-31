@@ -44,3 +44,5 @@ LoveIt主题介绍：https://hugoloveit.com/zh-cn/
 LoveIt主题仓库：https://github.com/dillonzq/LoveIt
 
 Hugo官网教程：https://gohugo.io/getting-started/
+
+我的博客：https://www.xiaodejiyi.com/
