@@ -4,11 +4,12 @@
         <link>https://example.com/en/posts/</link>
         <description>All Posts | LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://example.com/en/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Basic Markdown Syntax</title>
-    <link>https://example.com/en/basic-markdown-syntax/</link>
+    <title>LoveIt Theme</title>
+    <link>https://example.com/en/hello-world/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://example.com/en/basic-markdown-syntax/</guid>
-    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+    <guid>https://example.com/en/hello-world/</guid>
+    <description><![CDATA[<p>LoveIt theme documentation：https://hugoloveit.com/zh-cn/
+LoveIt theme repository：https://github.com/dillonzq/LoveIt</p>]]></description>
 </item></channel>
 </rss>

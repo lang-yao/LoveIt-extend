@@ -2,14 +2,14 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://example.com/en/basic-markdown-syntax/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/en/hello-world/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://example.com/basic-markdown-syntax/"
+                        href="https://example.com/hello-world/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://example.com/en/basic-markdown-syntax/"
+                    href="https://example.com/en/hello-world/"
                     /></url><url>
             <loc>https://example.com/en/milestone/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -29,7 +29,7 @@
                     hreflang="en"
                     href="https://example.com/en/message-board/"
                     /></url><url>
-            <loc>https://example.com/en/categories/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/en/categories/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://example.com/categories/"
@@ -38,16 +38,34 @@
                     hreflang="en"
                     href="https://example.com/en/categories/"
                     /></url><url>
-            <loc>https://example.com/en/tags/html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/en/tags/demo1/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://example.com/tags/html/"
+                        href="https://example.com/tags/demo1/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://example.com/en/tags/html/"
+                    href="https://example.com/en/tags/demo1/"
                     /></url><url>
-            <loc>https://example.com/en/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/en/categories/demo1/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://example.com/categories/demo1/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://example.com/en/categories/demo1/"
+                    /></url><url>
+            <loc>https://example.com/en/tags/demo2/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://example.com/tags/demo2/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://example.com/en/tags/demo2/"
+                    /></url><url>
+            <loc>https://example.com/en/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://example.com/"
@@ -56,25 +74,7 @@
                     hreflang="en"
                     href="https://example.com/en/"
                     /></url><url>
-            <loc>https://example.com/en/tags/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://example.com/tags/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://example.com/en/tags/markdown/"
-                    /></url><url>
-            <loc>https://example.com/en/categories/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://example.com/categories/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://example.com/en/categories/markdown/"
-                    /></url><url>
-            <loc>https://example.com/en/posts/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/en/posts/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://example.com/posts/"
@@ -83,7 +83,7 @@
                     hreflang="en"
                     href="https://example.com/en/posts/"
                     /></url><url>
-            <loc>https://example.com/en/tags/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/en/tags/</loc><lastmod>2020-12-31T09:58:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://example.com/tags/"
@@ -92,7 +92,7 @@
                     hreflang="en"
                     href="https://example.com/en/tags/"
                     /></url><url>
-            <loc>https://example.com/en/about/</loc><lastmod>2020-12-29T21:04:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://example.com/en/about/</loc><lastmod>2020-12-30T21:12:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://example.com/about/"
