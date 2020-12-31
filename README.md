@@ -1,10 +1,13 @@
 ## 声明
 LoveIt主题仓库：[https://github.com/dillonzq/LoveIt](https://github.com/dillonzq/LoveIt)
+
 本仓库只做为参考，调试模板。如有侵权，请联系我。
 
 ## 简介
 在使用Hugo框架，以及给LoveIt主题添加功能的过程中，费了一番功夫。
-下载Hugo后，你可以将代码下载下来直接运行。
+
+[下载Hugo](https://github.com/gohugoio/hugo/releases/)后，你可以将代码下载后直接运行。
+
 
 ```
 git clone https://github.com/lang-yao/LoveIt-extend
@@ -15,7 +18,7 @@ hugo server
 
 然后将会看到如下界面。
 
-![LoveIt demo]()
+![LoveIt demo](https://github.com/lang-yao/LoveIt-extend/blob/master/static/images/LoveIt-demo.png)
 
 你可以直接`hugo new posts/helloworld.md`写自己的第一篇文章，不过这不是我的本意。希望你参考其他主题配置，模板来搭建自己的博客。
 
@@ -37,5 +40,9 @@ hugo server
 
 ## 参考：
 LoveIt主题介绍：https://hugoloveit.com/zh-cn/
+
 LoveIt主题仓库：https://github.com/dillonzq/LoveIt
+
 Hugo官网教程：https://gohugo.io/getting-started/
+
+我的博客：https://www.xiaodejiyi.com/
