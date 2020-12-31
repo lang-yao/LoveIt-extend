@@ -45,7 +45,7 @@ enableEmoji = true
         pre = "<i class='fas fa-home fa-fw'></i>"
         post = ""
         name = "Home"
-        url = "/"
+        url = ""
         title = "Home"
         weight = 1
 
@@ -54,7 +54,7 @@ enableEmoji = true
         pre = "<i class='fas fa-archive fa-fw'></i>"
         post = ""
         name = "Posts"
-        url = "/posts/"
+        url = "posts/"
         title = "all articles"
         weight = 2
 
@@ -63,7 +63,7 @@ enableEmoji = true
         pre = "<i class='fas fa-database fa-fw'></i>"
         post = ""
         name = "Memory"
-        url = "/memories/"
+        url = "memories/"
         title = "left it"
         weight = 3
 
@@ -72,7 +72,7 @@ enableEmoji = true
         pre = "<i class='fas fa-tags fa-fw'></i>"
         post = ""
         name = " Tags"
-        url = "/tags/"
+        url = "tags/"
         title = ""
         weight = 4
 
@@ -81,7 +81,7 @@ enableEmoji = true
         pre = "<i class='fas fa-th-list fa-fw'></i>"
         post = ""
         name = "Categories"
-        url = "/categories/"
+        url = "categories/"
         title = ""
         weight = 5
 
@@ -107,7 +107,7 @@ enableEmoji = true
         pre = "<i class='fas fa-file-alt fa-fw'></i>"
         post = ""
         name = "Book list"
-        url = "/booklist/"
+        url = "booklist/"
         title = ""
         weight = 8
         parent = "share"
@@ -117,7 +117,7 @@ enableEmoji = true
         pre = "<i class='fas fa-globe fa-fw'></i>"
         post = ""
         name = "Websites"
-        url = "/websites/"
+        url = "websites/"
         title = ""
         weight = 8
         parent = "share"
@@ -135,7 +135,7 @@ enableEmoji = true
         pre = "<i class='fas fa-comments fa-fw'></i>"
         post = ""
         name = "Message Board"
-        url = "/message-board/"
+        url = "message-board/"
         title = ""
         weight = 8
         parent = "internal"
@@ -145,7 +145,7 @@ enableEmoji = true
         pre = "<i class='fas fa-star fa-fw'></i>"
         post = ""
         name = "Favorites"
-        url = "/favorites/"
+        url = "favorites/"
         title = ""
         weight = 8
         parent = "internal"
@@ -155,7 +155,7 @@ enableEmoji = true
         pre = "<i class='fas fa-monument fa-fw'></i>"
         post = ""
         name = "Milestone"
-        url = "/milestone/"
+        url = "milestone/"
         title = ""
         weight = 8
         parent = "internal"
@@ -165,7 +165,7 @@ enableEmoji = true
         pre = "<i class='fas fa-user-friends fa-fw'></i>"
         post = ""
         name = "Links"
-        url = "/links/"
+        url = "links/"
         title = ""
         weight = 9
         parent = "internal"
@@ -175,7 +175,7 @@ enableEmoji = true
         pre = "<i class='fas fa-user-secret fa-fw'></i>"
         post = ""
         name = "About"
-        url = "/about/"
+        url = "about/"
         title = ""
         weight = 10
         parent = "internal"
@@ -336,7 +336,7 @@ enableEmoji = true
         pre = "<i class='fas fa-home fa-fw'></i>"
         post = ""
         name = "首页"
-        url = "/"
+        url = ""
         title = "首页"
         weight = 1
 
@@ -345,7 +345,7 @@ enableEmoji = true
         pre = "<i class='fas fa-archive fa-fw'></i>"
         post = ""
         name = "归档"
-        url = "/posts/"
+        url = "posts/"
         title = "所有文章"
         weight = 2
 
@@ -354,7 +354,7 @@ enableEmoji = true
         pre = "<i class='fas fa-database fa-fw'></i>"
         post = ""
         name = "记忆"
-        url = "/memories/"
+        url = "memories/"
         title = "把我知道的留下"
         weight = 3
 
@@ -363,7 +363,7 @@ enableEmoji = true
         pre = "<i class='fas fa-tags fa-fw'></i>"
         post = ""
         name = " 标签"
-        url = "/tags/"
+        url = "tags/"
         title = ""
         weight = 4
 
@@ -372,7 +372,7 @@ enableEmoji = true
         pre = "<i class='fas fa-th-list fa-fw'></i>"
         post = ""
         name = "分类"
-        url = "/categories/"
+        url = "categories/"
         title = ""
         weight = 5
 
@@ -398,7 +398,7 @@ enableEmoji = true
         pre = "<i class='fas fa-file-alt fa-fw'></i>"
         post = ""
         name = "书单"
-        url = "/booklist/"
+        url = "booklist/"
         title = ""
         weight = 8
         parent = "share"
@@ -408,7 +408,7 @@ enableEmoji = true
         pre = "<i class='fas fa-globe fa-fw'></i>"
         post = ""
         name = "网站"
-        url = "/websites/"
+        url = "websites/"
         title = ""
         weight = 8
         parent = "share"
@@ -426,7 +426,7 @@ enableEmoji = true
         pre = "<i class='fas fa-comments fa-fw'></i>"
         post = ""
         name = "留言板"
-        url = "/message-board/"
+        url = "message-board/"
         title = ""
         weight = 8
         parent = "internal"
@@ -437,7 +437,7 @@ enableEmoji = true
         pre = "<i class='fas fa-monument fa-fw'></i>"
         post = ""
         name = "里程碑"
-        url = "/milestone/"
+        url = "milestone/"
         title = ""
         weight = 8
         parent = "internal"
@@ -447,7 +447,7 @@ enableEmoji = true
         pre = "<i class='fas fa-user-friends fa-fw'></i>"
         post = ""
         name = "友链"
-        url = "/links/"
+        url = "links/"
         title = ""
         weight = 9
         parent = "internal"
@@ -457,7 +457,7 @@ enableEmoji = true
         pre = "<i class='fas fa-user-secret fa-fw'></i>"
         post = ""
         name = "关于"
-        url = "/about/"
+        url = "about/"
         title = ""
         weight = 10
         parent = "internal"
@@ -1070,8 +1070,8 @@ enableEmoji = true
   # posts = ":year/:month/:filename"
   posts = ":filename"
 
-# Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
-# 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
+# Privacy config (https://gohugo.ioabout/hugo-and-gdpr/)
+# 隐私信息配置 (https://gohugo.ioabout/hugo-and-gdpr/)
 [privacy]
   # privacy of the Google Analytics (replaced by params.analytics.google)
   # Google Analytics 相关隐私 (被 params.analytics.google 替代)

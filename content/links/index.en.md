@@ -18,4 +18,7 @@ links:
 
 ---
 
-content
+This page can't have Markdown ## label.
+Otherwise, you will get lots of error in chrome console.
+Because, in templates, i only consider the links array. If you use ## label here, the directory array of page will overflow.
+If you want to fix this problem, you might need see **TableOfContents** in [Table of Contents](https://gohugo.io/content-management/toc/). And then modify the table of tontents in `layouts\links\single.html`.
