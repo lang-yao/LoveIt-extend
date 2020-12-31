@@ -12,10 +12,10 @@ def main(msg):
 	os.system('git push')
 
 	local_back = input('\n本地备份？提示: y\n')
-	if local_back == 'y':
-		os.system(r'7z a D:\src\xxx.zip D:\src\xxx')
-		os.system(r'move D:\src\xxx.zip D:\backup\xxx')
-		print('本地备份完成！')
+	# if local_back == 'y':
+	# 	os.system(r'7z a D:\src\xxx.zip D:\src\xxx')
+	# 	os.system(r'move D:\src\xxx.zip D:\backup\xxx')
+	# 	print('本地备份完成！')
 
 	print('over...')
 
