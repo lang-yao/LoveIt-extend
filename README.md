@@ -6,7 +6,7 @@ LoveIt主题仓库：[https://github.com/dillonzq/LoveIt](https://github.com/dil
 ## 简介
 在使用Hugo框架，以及给LoveIt主题添加功能的过程中，费了一番功夫。
 
-[下载Hugo](https://github.com/gohugoio/hugo/releases/)后，你可以将代码下载下来直接运行。
+[下载Hugo](https://github.com/gohugoio/hugo/releases/)后，你可以将代码下载后直接运行。
 
 
 ```
